@@ -8,8 +8,8 @@ set(Plugin.SymbolResolver ON CACHE BOOL "" FORCE)
 FetchContent_Declare(
     Dobby
     GIT_REPOSITORY https://github.com/jmpews/Dobby.git
-    GIT_TAG master
-    GIT_SHALLOW TRUE
+    GIT_TAG 0932d69
+    GIT_SHALLOW FALSE
 )
 FetchContent_MakeAvailable(Dobby)
 
