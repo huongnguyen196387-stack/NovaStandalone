@@ -17,7 +17,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "8.9"
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
       - name: Verify culler signatures against supplied disassembly
         run: python3 tools/verify_signatures.py
       - name: Syntax-check patch tools and unit tests
